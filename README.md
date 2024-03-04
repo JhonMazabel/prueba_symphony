@@ -1,6 +1,9 @@
 Prueba Tecnica de Symphony - Pokemon Web App
 Esta es una prueba tecnica desarrollada en React+Vite que utiliza la API de Pokémon para mostrar un listado de Pokémon con paginación y detalles de cada uno.
 
+Enlace de la prueba desplegado
+https://prueba-symphony.vercel.app/
+
 Aplicaciones requeridas
 -Git
 
