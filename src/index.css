@@ -1,0 +1,89 @@
+/* Estilos para la lista de Pokémon */
+.pokemon-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.pokemon-card {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-card img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.pokemon-card .pokemon-name {
+  font-weight: bold;
+}
+
+/* Estilos para la página de detalles del Pokémon */
+.pokemon-details {
+  max-width: 600px;
+  margin: 0 auto; /* Esto centrará la tarjeta horizontalmente */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.pokemon-details h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.pokemon-details img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.pokemon-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.pagination button:hover {
+  background-color: darkblue;
+}
